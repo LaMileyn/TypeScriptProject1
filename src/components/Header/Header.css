@@ -1,0 +1,37 @@
+.header{
+    height: 60px;
+    background: white;
+    box-shadow: 0 0 20px 9px #cdcdcd66;
+    width: 100%;
+    position: fixed;
+}
+.header_wrapper{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.bin_count{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    color: #574f4f;
+}
+.header_count{
+    background: red;
+    padding: 15px 15px;
+    width: 1px;
+    height: 1px;
+    margin-left: 5px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
